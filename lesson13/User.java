@@ -1,13 +1,10 @@
-package lesson12;
-
-import java.io.Serializable;
+package lesson13;
 
 /**
  * @Author Fisher
  * @Date 2018/12/12 12:42
  **/
-public class User implements Serializable {
-    private static final long serialVersionUID = 1L;
+public class User {
     private String id = null;
     private String name = null;
     private String gender = null;
@@ -65,7 +62,7 @@ public class User implements Serializable {
         this.aboutme = aboutme;
     }
 
-//    public String toString() {
-//        return id + " " + name + " " + gender + " " + address + " " + aboutme;
-//    }
+    public String toString() {
+        return id + " " + name + " " + gender + " " + address + " " + aboutme;
+    }
 }
