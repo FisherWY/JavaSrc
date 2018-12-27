@@ -65,7 +65,7 @@ public class User implements Serializable {
         this.aboutme = aboutme;
     }
 
-//    public String toString() {
-//        return id + " " + name + " " + gender + " " + address + " " + aboutme;
-//    }
+    public String toString() {
+        return id + " " + name + " " + gender + " " + address + " " + aboutme;
+    }
 }
