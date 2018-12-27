@@ -11,6 +11,8 @@ import java.util.List;
  */
 public class exam {
     public static void main(String args[]){
-        Color c = Color.BLUE;
+        String s = "class";
+        System.out.println(s.indexOf('w'));
+//        String
     }
 }

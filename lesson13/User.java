@@ -1,10 +1,12 @@
 package lesson13;
 
+import java.io.Serializable;
+
 /**
  * @Author Fisher
  * @Date 2018/12/12 12:42
  **/
-public class User {
+public class User implements Serializable {
     private String id = null;
     private String name = null;
     private String gender = null;
