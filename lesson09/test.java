@@ -12,6 +12,7 @@ import java.awt.event.ActionListener;
 public class test {
     private JButton button1;
     private JPanel panel1;
+    private JTree tree1;
 
     public test() {
         button1.addActionListener(new ActionListener() {
